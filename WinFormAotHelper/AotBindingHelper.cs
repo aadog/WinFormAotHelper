@@ -60,7 +60,7 @@ namespace WinFormAotHelper
                         checkBox.Checked = getViewModelProperty();
                     }
                 };
-                checkBox.TextChanged += (sender, e) =>
+                checkBox.CheckedChanged += (sender, e) =>
                 {
                     var result = checkBox.Checked;
                     setViewModelProperty(result);
