@@ -1,0 +1,6 @@
+artifacts/
+build/obj
+build/bin
+WinFormAotHelper/obj
+WinFormAotHelper/bin
+.vs/
